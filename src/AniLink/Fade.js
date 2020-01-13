@@ -37,11 +37,13 @@ export default function Fade({
 		<TransitionLink
 			exit={{
 				length: length,
+				zIndex: exit.zIndex || 'unset',
 				trigger: ({ exit, node }) =>
 					fade({ exit, node, direction: 'out' }),
 			}}
 			entry={{
-				length: 0,
+				length: length,
+				zIndex: entry.zIndex || 'unset',
 				trigger: ({ exit, node }) =>
 					fade({ exit, node, direction: 'in' }),
 			}}

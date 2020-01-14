@@ -15,7 +15,7 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _requestanimationframeTimer = require("requestanimationframe-timer");
 
-var _jsxFileName = "/Users/sean/Projects/gatsby-plugin-transition-link/src/components/delayTransitionRender.js";
+var _jsxFileName = "/Users/tyler/Documents/GitHub/gatsby-plugins/transition-link/gatsby-plugin-transition-link/src/components/delayTransitionRender.js";
 
 function delayTransitionRender(WrappedComponent) {
   var DelayedTransitionWrapper =

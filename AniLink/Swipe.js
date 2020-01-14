@@ -15,7 +15,7 @@ var _ = _interopRequireDefault(require("../"));
 
 var _gsap = require("gsap");
 
-var _jsxFileName = "/Users/sean/Projects/gatsby-plugin-transition-link/src/AniLink/Swipe.js";
+var _jsxFileName = "/Users/tyler/Documents/GitHub/gatsby-plugins/transition-link/gatsby-plugin-transition-link/src/AniLink/Swipe.js";
 var boxShadow = '0 0 100px 10px rgba(0, 0, 0, 0.12941176470588237)';
 
 var swipeTopDirection = function swipeTopDirection(direction, reverse) {

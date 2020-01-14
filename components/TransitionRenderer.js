@@ -9,9 +9,9 @@ exports.default = void 0;
 
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 
-var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/assertThisInitialized"));
-
 var _inheritsLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/inheritsLoose"));
+
+var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/assertThisInitialized"));
 
 var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
@@ -21,7 +21,7 @@ var _requestanimationframeTimer = require("requestanimationframe-timer");
 
 var _createTransitionContext = require("../context/createTransitionContext");
 
-var _jsxFileName = "/Users/sean/Projects/gatsby-plugin-transition-link/src/components/TransitionRenderer.js";
+var _jsxFileName = "/Users/tyler/Documents/GitHub/gatsby-plugins/transition-link/gatsby-plugin-transition-link/src/components/TransitionRenderer.js";
 
 var TransitionRenderer =
 /*#__PURE__*/
@@ -36,10 +36,10 @@ function (_Component) {
     }
 
     _this = _Component.call.apply(_Component, [this].concat(args)) || this;
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "state", {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "state", {
       shouldBeVisible: !!!_this.props.appearAfter
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "componentDidMount", function () {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "componentDidMount", function () {
       var delay = typeof _this.props.delay === 'number' ? _this.props.delay : 0;
       var appearafter = typeof _this.props.appearAfter === 'number' ? _this.props.appearAfter : 0;
       var timeout = delay + appearafter;
@@ -49,7 +49,7 @@ function (_Component) {
         });
       }, timeout);
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "componentWillUnmount", function () {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "componentWillUnmount", function () {
       (0, _requestanimationframeTimer.clearTimeout)(_this.appearTimeout);
     });
     return _this;

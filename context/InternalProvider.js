@@ -17,7 +17,7 @@ var _createTransitionContext = require("./createTransitionContext");
 
 var _getPagesPromises = _interopRequireDefault(require("../utils/getPagesPromises"));
 
-var _jsxFileName = "/Users/sean/Projects/gatsby-plugin-transition-link/src/context/InternalProvider.js";
+var _jsxFileName = "/Users/tyler/Documents/GitHub/gatsby-plugins/transition-link/gatsby-plugin-transition-link/src/context/InternalProvider.js";
 
 var InternalProvider =
 /*#__PURE__*/

@@ -11,9 +11,9 @@ var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends")
 
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
 
-var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/assertThisInitialized"));
-
 var _inheritsLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/inheritsLoose"));
+
+var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/assertThisInitialized"));
 
 var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
@@ -23,7 +23,7 @@ var _ = _interopRequireWildcard(require("../"));
 
 var _gsap = require("gsap");
 
-var _jsxFileName = "/Users/sean/Projects/gatsby-plugin-transition-link/src/AniLink/Cover.js";
+var _jsxFileName = "/Users/tyler/Documents/GitHub/gatsby-plugins/transition-link/gatsby-plugin-transition-link/src/AniLink/Cover.js";
 
 var Cover =
 /*#__PURE__*/
@@ -34,7 +34,7 @@ function (_Component) {
     var _this;
 
     _this = _Component.call(this, _props) || this;
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "horizontal", function (_ref) {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "horizontal", function (_ref) {
       var node = _ref.node,
           seconds = _ref.props.length,
           direction = _ref.direction;
@@ -56,7 +56,7 @@ function (_Component) {
         ease: _gsap.Power1.easeInOut
       }, "+=" + wait);
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "vertical", function (_ref2) {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "vertical", function (_ref2) {
       var node = _ref2.node,
           seconds = _ref2.props.length,
           direction = _ref2.direction;
@@ -76,7 +76,7 @@ function (_Component) {
         ease: _gsap.Power1.easeIn
       }, "+=" + wait);
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "moveInDirection", function (_ref3) {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "moveInDirection", function (_ref3) {
       var props = _ref3.props,
           direction = _ref3.direction,
           node = _ref3.node;
@@ -91,8 +91,8 @@ function (_Component) {
         node: node
       });
     });
-    _this.horizontal = _this.horizontal.bind((0, _assertThisInitialized2.default)(_this));
-    _this.vertical = _this.vertical.bind((0, _assertThisInitialized2.default)(_this));
+    _this.horizontal = _this.horizontal.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));
+    _this.vertical = _this.vertical.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));
     _this.cover = _react.default.createRef();
     return _this;
   }

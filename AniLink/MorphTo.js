@@ -15,7 +15,7 @@ var _gatsbyPluginTransitionLink = _interopRequireDefault(require("gatsby-plugin-
 
 var _gsap = require("gsap");
 
-var _jsxFileName = "/Users/sean/Projects/gatsby-plugin-transition-link/src/AniLink/MorphTo.js";
+var _jsxFileName = "/Users/tyler/Documents/GitHub/gatsby-plugins/transition-link/gatsby-plugin-transition-link/src/AniLink/MorphTo.js";
 
 var MorphTo = function MorphTo(_ref) {
   var children = _ref.children,
@@ -67,7 +67,7 @@ var MorphTo = function MorphTo(_ref) {
                 return _context.stop();
             }
           }
-        }, _callee);
+        }, _callee, this);
       }));
 
       return function (_x) {

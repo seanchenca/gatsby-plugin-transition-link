@@ -31,7 +31,7 @@ var _secondsMs = require("../utils/secondsMs");
 
 require("../style.css");
 
-var _jsxFileName = "/Users/sean/Projects/gatsby-plugin-transition-link/src/components/TransitionHandler.js";
+var _jsxFileName = "/Users/tyler/Documents/GitHub/gatsby-plugins/transition-link/gatsby-plugin-transition-link/src/components/TransitionHandler.js";
 var DelayedTransition = (0, _delayTransitionRender.default)(_reactTransitionGroup.Transition);
 
 var TransitionHandler =

@@ -11,9 +11,9 @@ var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runt
 
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 
-var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/assertThisInitialized"));
-
 var _inheritsLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/inheritsLoose"));
+
+var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/assertThisInitialized"));
 
 var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
@@ -25,7 +25,7 @@ var _gsap = require("gsap");
 
 var _colorConvert = _interopRequireDefault(require("color-convert"));
 
-var _jsxFileName = "/Users/sean/Projects/gatsby-plugin-transition-link/src/AniLink/PaintDrip.js";
+var _jsxFileName = "/Users/tyler/Documents/GitHub/gatsby-plugins/transition-link/gatsby-plugin-transition-link/src/AniLink/PaintDrip.js";
 
 var PaintDrip =
 /*#__PURE__*/
@@ -36,7 +36,7 @@ function (_Component) {
     var _this;
 
     _this = _Component.call(this, props) || this;
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "createRipple", function (_ref, event, hex, color, node) {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "createRipple", function (_ref, event, hex, color, node) {
       var length = _ref.length;
       var body = document.body;
       var canvas = document.createElement('canvas');
@@ -107,7 +107,7 @@ function (_Component) {
         vh = canvas.height = window.innerHeight;
       }
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "getDirection", function (from) {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "getDirection", function (from) {
       switch (from) {
         case 'left':
           return {
@@ -133,17 +133,17 @@ function (_Component) {
           return {};
       }
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "slideIn", function (_ref2, node, from) {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "slideIn", function (_ref2, node, from) {
       var length = _ref2.length;
       new _gsap.TimelineMax().from(node, length, (0, _extends2.default)({}, _this.getDirection(from), {
         ease: _gsap.Power1.easeOut
       }));
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "onResize", function () {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "onResize", function () {
       _this.vw = _this.canvas.width = window.innerWidth;
       _this.vh = _this.canvas.height = window.innerHeight;
     });
-    _this.createRipple = _this.createRipple.bind((0, _assertThisInitialized2.default)(_this));
+    _this.createRipple = _this.createRipple.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));
     return _this;
   }
 

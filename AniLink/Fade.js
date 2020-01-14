@@ -15,7 +15,7 @@ var _ = _interopRequireDefault(require("../"));
 
 var _gsap = require("gsap");
 
-var _jsxFileName = "/Users/sean/Projects/gatsby-plugin-transition-link/src/AniLink/Fade.js";
+var _jsxFileName = "/Users/tyler/Documents/GitHub/gatsby-plugins/transition-link/gatsby-plugin-transition-link/src/AniLink/Fade.js";
 
 var fade = function fade(_ref) {
   var length = _ref.exit.length,
@@ -46,7 +46,6 @@ function Fade(_ref2) {
   return _react.default.createElement(_.default, (0, _extends2.default)({
     exit: {
       length: length,
-      zIndex: exit.zIndex || 'unset',
       trigger: function trigger(_ref3) {
         var exit = _ref3.exit,
             node = _ref3.node;
@@ -58,8 +57,7 @@ function Fade(_ref2) {
       }
     },
     entry: {
-      length: length,
-      zIndex: entry.zIndex || 'unset',
+      length: 0,
       trigger: function trigger(_ref4) {
         var exit = _ref4.exit,
             node = _ref4.node;

@@ -3,6 +3,7 @@ node_modules/
 yarn-error.log
 package-lock.json
 /*.js
+!index.js
 !babel.config.js
 src/.eslintrc.json
 src/package.json

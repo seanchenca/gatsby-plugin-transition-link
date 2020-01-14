@@ -46,6 +46,7 @@ function Fade(_ref2) {
   return _react.default.createElement(_.default, (0, _extends2.default)({
     exit: {
       length: length,
+      zIndex: exit.zIndex,
       trigger: function trigger(_ref3) {
         var exit = _ref3.exit,
             node = _ref3.node;
@@ -57,7 +58,8 @@ function Fade(_ref2) {
       }
     },
     entry: {
-      length: 0,
+      length: length,
+      zIndex: entry.zIndex,
       trigger: function trigger(_ref4) {
         var exit = _ref4.exit,
             node = _ref4.node;
